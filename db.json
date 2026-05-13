@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "fullName": "",
+      "id": "U6x8xO9qoUE"
+    },
+    {
+      "fullName": "kjlk",
+      "id": "SmRuEf3djvs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
