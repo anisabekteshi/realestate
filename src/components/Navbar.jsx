@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink, Link } from "react-router-dom";
+import { baseUrl, logOut } from '../services/auth';
 
 function Navbar() {
-    const user = null;
+    const [user,setUser]= useState(null);
+    useEffect(()=>{
+        const userId = localStorage.getItem("userId");
+        console.log(userId,'userId');
+
+        if(userId){
+            fetch(`${baseUrl}/users/${userId}`)
+            .then((response)=>response.json())
+            .then((data)=>setUser(data))
+        }
+    },[])
+
+    const handleLogout = ()=>{
+        logOut()
+        window.location.href="/"
+    }
       const activeLink = ({ isActive }) =>
         isActive
             ? "bg-blue-600 text-white px-3 py-1 rounded"
@@ -48,7 +64,7 @@ function Navbar() {
                      </li>
 
                     <li>
-                        <NavLink to="/" className={activeLink}>Log Out</NavLink>
+                        <NavLink to="/" className={activeLink} onClick={handleLogout}>Log Out</NavLink>
                     </li>
                         </>
                     )

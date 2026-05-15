@@ -7,6 +7,30 @@
     {
       "fullName": "kjlk",
       "id": "SmRuEf3djvs"
+    },
+    {
+      "fullName": "anisa",
+      "id": "CuMWyrGeszU"
+    },
+    {
+      "fullName": "last",
+      "id": "9CPqJUO790o"
+    },
+    {
+      "fullName": "lastone",
+      "id": "2KZZAxaMNfI"
+    },
+    {
+      "fullName": "anisa",
+      "email": "anisa@gmail.com",
+      "password": "anisa123",
+      "id": "zQ1btv-YXLI"
+    },
+    {
+      "fullName": "anisa",
+      "email": "anisa4@gmail.com",
+      "password": "anisa123",
+      "id": "nm6jWGolFV8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
