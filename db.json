@@ -31,6 +31,103 @@
       "email": "anisa4@gmail.com",
       "password": "anisa123",
       "id": "nm6jWGolFV8"
+    },
+    {
+      "fullName": "anisa",
+      "email": "anisa@gmail.com",
+      "password": "123",
+      "id": "7s9hrPuULOg"
+    },
+    {
+      "fullName": "wl",
+      "email": "lweoeqk@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "id": "uVeKV9eB-D8"
+    },
+    {
+      "fullName": "a",
+      "email": "anisa@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "id": "Yspp1_ApFXI"
+    },
+    {
+      "fullName": "a",
+      "email": "anisa@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "id": "b2-UxMwfjFE"
+    },
+    {
+      "fullName": "a",
+      "email": "anisa@gmail.com",
+      "password": "anisa",
+      "confirm": "anisa",
+      "id": "zIHsxaQGXSI"
+    },
+    {
+      "fullName": "an",
+      "email": "anisa@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "id": "_UWi5nREX6M"
+    },
+    {
+      "fullName": "a",
+      "email": "anisa@gmail.com",
+      "password": "1234",
+      "confirm": "1234",
+      "id": "Snnbuw7Ju0w"
+    },
+    {
+      "fullName": "a",
+      "email": "anisa@gmail.com",
+      "password": "123",
+      "confirm": "1234",
+      "id": "sdebg8PNKaA"
+    },
+    {
+      "fullName": "aa",
+      "email": "aniss@gmail.com",
+      "password": "anisa1234",
+      "confirm": "anisa1234",
+      "id": "Fbp_vtCpo_Q"
+    },
+    {
+      "fullName": "aa",
+      "email": "anisab@gmail.com",
+      "password": "1234567",
+      "confirm": "1234567",
+      "id": "49lwQ4-JbbI"
+    },
+    {
+      "fullName": "a",
+      "email": "anisa@gmail.com",
+      "password": "7654321",
+      "confirm": "7654321",
+      "id": "MgAK0HypLzM"
+    },
+    {
+      "fullName": "anisa",
+      "email": "abab@gmail.com",
+      "password": "froni67",
+      "confirm": "froni67",
+      "id": "UnQQMY1kqP0"
+    },
+    {
+      "fullName": "111111111111111111",
+      "email": "anisa@gmail.com",
+      "password": "ababab",
+      "confirm": "ababab",
+      "id": "MWxbOKYdv6I"
+    },
+    {
+      "fullName": "1111anisa",
+      "email": "anisa@gmail.com",
+      "password": "1234567",
+      "confirm": "1234567",
+      "id": "s1--UK0FVBo"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

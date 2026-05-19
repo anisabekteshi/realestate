@@ -8,20 +8,49 @@ function Register() {
   const [fullName,setFullName]= useState("");
   const [email,setEmail]= useState("");
   const [password,setPassword]= useState("");
+  const [confirm,setConfirm]=useState("");
   const [error,setError]=useState("");
   
 
     const handleSubmit = (e)=>{
       e.preventDefault();
-      if (!fullName && !email && !password){
+      if (!fullName && !email && !password && !confirm){
         setError("please fill all fields");
         return
       }
-      registerUser({fullName,email,password}).then((result)=>{
+      
+
+      if(fullName.length<3){
+        alert("the name must be longer than 3 symbols");
+        return
+      }
+
+      if(!isNaN(fullName)){
+        alert("Full name must include fonts too")
+        return;
+      }
+
+      if(!email.includes ("@") && !email.includes (".")){
+        alert("email invalid");
+        return;
+      }
+      if(password.length < 6){
+        alert("the password minimum is 6 characters");
+        return
+      }
+
+      if(password !== confirm){
+        alert("the passwords dosen't match");
+        return
+      }
+
+      registerUser({fullName,email,password,confirm}).then((result)=>{
         console.log(result);
         navigate("/login")
       })
     }
+
+    
   return (
     <main className='py-12 px-4'>
       <div className='max-w-md mx-auto'>
@@ -50,6 +79,14 @@ function Register() {
               <input 
               value={password}
               onChange={(e)=>{setPassword(e.target.value)}}
+              type="password" className='w-full rounded-lg border border-gray-300 py-2' />
+            </label>
+
+            <label htmlFor="">
+              <span className='block text-sm font-medium text-gray-700 mb-1'>Confirm Password</span>
+              <input 
+              value={confirm}
+              onChange={(e)=>{setConfirm(e.target.value)}}
               type="password" className='w-full rounded-lg border border-gray-300 py-2' />
             </label>
 
