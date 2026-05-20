@@ -128,6 +128,43 @@
       "password": "1234567",
       "confirm": "1234567",
       "id": "s1--UK0FVBo"
+    },
+    {
+      "fullName": "anisa",
+      "email": "anisa@gmail.com",
+      "password": "anisa1234",
+      "confirm": "anisa1234",
+      "id": "2FDG03zYF0M"
+    }
+  ],
+  "properties":[
+    {
+      "id":"1",
+      "title":"Cozy villa in Prizren",
+      "description":"Spacious family villa with a larg garden in the heart of Prizren",
+      "price":15000,
+      "location":"Prizren",
+      "type":"Villa",
+      "bedrooms":4,
+      "bathrooms":3,
+      "area":220,
+      "image":"https://picsum.photos/seed/picsum/200/300",
+      "ovnerId":1,
+      "createdAt":"2026-05-04"
+    },
+    {
+      "id":"2",
+      "title":"Cozy villa in Prizren",
+      "description":"Spacious family villa with a larg garden in the heart of Prizren",
+      "price":15000,
+      "location":"Prizren",
+      "type":"Villa",
+      "bedrooms":4,
+      "bathrooms":3,
+      "area":220,
+      "image":"https://picsum.photos/seed/picsum/200/300",
+      "ovnerId":1,
+      "createdAt":"2026-05-04"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
